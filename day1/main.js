@@ -26,8 +26,8 @@ function getMostCalories(arr) {
 }
 
 const fileContent = getFileData("input.txt");
-
 const arrOfNums = fileContent.split("\n");
+
 const mostCalories = getMostCalories(arrOfNums);
 
 console.log(mostCalories);
